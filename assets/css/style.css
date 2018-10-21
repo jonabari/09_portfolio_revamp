@@ -1,0 +1,100 @@
+a,
+a:focus,
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 .05rem .2rem #11151C;
+}
+  
+html,
+body {
+    height: 100%;
+    background-color: #212D40;
+}
+
+.btn-secondary{
+    color: #212D40;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #D66853;
+    border: .05rem solid #D66853;
+    text-shadow: none;
+    color: #fff;
+}
+
+.carousel-item {
+    max-height: 500px;
+}
+
+.cover {
+    padding: 0 1.5rem;
+}
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.mastfoot {
+    color: #fff;
+}
+
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: #D66853;
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+#profile-img {
+    max-width: 200px;
+    margin: 1em;
+}
+
+#cv-img {
+    max-width: 250px;
+    margin: 1em;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
