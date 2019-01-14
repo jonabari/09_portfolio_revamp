@@ -37,6 +37,15 @@ body {
     max-height: 500px;
 }
 
+.card-title{
+    color: #303030;
+    text-shadow: none	
+}
+.card-text {
+    color: #36454f;
+    text-shadow: none
+}
+
 .cover {
     padding: 0 1.5rem;
 }
@@ -47,6 +56,12 @@ body {
 
 .cover-container {
     max-width: 42em;
+}
+
+.fa-github,
+.fa-eye{
+    color: #36454f;
+    font-size: 150%;
 }
 
 .mastfoot {
@@ -77,6 +92,10 @@ body {
 
 .nav-masthead .nav-link + .nav-link {
     margin-left: 1rem;
+}
+
+.portfolio-pieces {
+    padding: 2em 0 2em 0
 }
 
 #profile-img {
